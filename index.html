@@ -33,6 +33,32 @@
                     <p class="body-overlaytext">I want... <br><br>I can...<br><br>I will...</p>
                 </div>
             </div>
+            <div class="email-container">
+                <h3 class="email-title">Story telling connects people through shared experiences. Sharing helps 'normalize' something that may seem isolating, lonely, or unique to you. Others are likely experiencing similar things and may not even know it. If you want to share your story in a positive way about living with (or around), family conflict, estrangement, grief, significant illness or positive change - please do. Help someone else realize they are not alone. Share your story here. <br><br> Your email address will not be published. Your email is safe, and you can unsubscribe at any time you want. Some stories may be truncated due to space constraints. Required fields are marked.
+                </h3>
+                <form action="action_page.php">
+                    <label for="subject">Comment <span class="required">*</span></label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+                    <div class="name">
+                        <div class="name-box">
+                            <label for="fname">First Name <span class="required">*</span></label>
+                            <input required type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                        <div class="name-box">
+                            <label for="lname">Last Name <span class="required">*</span></label>
+                            <input required type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                    </div>
+
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input required type="text" id="email" name="email" placeholder="Your email..">
+
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
         </div>
     </div>
 </body>
