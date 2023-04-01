@@ -38,6 +38,13 @@
 .button {
     transition: .5s;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.button>img {
+    width: 1rem;
+    margin-left: .5rem;
 }
 
 .button:hover {
@@ -47,7 +54,7 @@
 .hero-img {
     position: relative;
     width: 100%;
-    background-image: url(./image2.jpg);
+    background-image: url(./images/image2.jpg);
     height: 35rem;
     background-size: cover;
     background-position: center;
@@ -77,4 +84,23 @@
     font-family: Poppins;
     font-weight: 500;
     font-size: 2rem;
+}
+
+.body-image {
+    margin-top: 5rem;
+    background: url(./images/image3.jpg);
+    height: 30rem;
+    background-size: cover;
+    margin-bottom: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-overlaytext {
+    line-height: 1.5;
+    margin-left: -3rem;
+    font-size: 2rem;
+    color: red;
+    font-style: italic;
 }
