@@ -5,36 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lifeclock.css">
     <title>LifeClock</title>
 </head>
 
 <body>
     <div class="page-container">
-        <div class="body">
-            <div class="header">
-                <div class="header-container">
-                    <div class="header-left">
+        <div class="header" id="header">
+            <div class="header-container">
+                <div class="header-left">
+                    <a href="/">
                         <img src="./images/lifeclock-remake.png" alt="" class="header-logo">
-                    </div>
-                    <div class="header-right">
-                        <div class="button">Individual Coaching</div>
-                        <div class="button">Family coaching</div>
-                        <div class="button">Services <img src="./images/icons8-expand-arrow-48.png" alt=""></div>
+                    </a>
+                </div>
+                <div class="header-right">
+                    <div class="button">Individual Coaching</div>
+                    <div class="button">Family coaching</div>
+                    <div class="services">
+                        <div class="services-button">Services <img src="./images/icons8-expand-arrow-48.png" alt="">
+                            <div class="menu">
+                                <ul>
+                                    <!-- <li><a href="#">Individual coaching - leading your best life </a></li>
+                                    <li><a href="#">Family coaching</a></li> -->
+                                    <li><a href="/trust">Increasing trust</a></li>
+                                    <li><a href="/affairs">Retiring, aging, illness - putting your affairs in order</a></li>
+                                    <li><a href="/grief">Grief</a></li>
+                                    <li><a href="/indiscretion">Personal indiscretion management</a></li>
+                                    <li><a href="/testimonials">Testimonials</a></li>
+                                    <li><a href="/contact">Contact page</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="body">
             <div class="hero-img">
-                <p class="hero-text">Making the moments of <br>your life matter.</p>
+                <p class="hero-text">Making the moments of your life matter.</p>
             </div>
             <div class="body-content">
-                <h3 class="body-header">Lifeclock Inc. helps you to find your direction when you are looking for a
-                    powerful way to move forward in life. </h3>
                 <div class="body-image">
                     <p class="body-overlaytext">I want... <br><br>I can...<br><br>I will...</p>
                 </div>
+                <h3 class="body-header">Lifeclock Inc. helps you to find your direction when you are looking for a
+                    powerful way to move forward in life. </h3>
             </div>
             <div class="email-container">
-                <h3 class="email-title">Story telling connects people through shared experiences. Sharing helps 'normalize' something that may seem isolating, lonely, or unique to you. Others are likely experiencing similar things and may not even know it. If you want to share your story in a positive way about living with (or around), family conflict, estrangement, grief, significant illness or positive change - please do. Help someone else realize they are not alone. Share your story here. <br><br> Your email address will not be published. Your email is safe, and you can unsubscribe at any time you want. Some stories may be truncated due to space constraints. Required fields are marked.
+                <h3 class="email-title">Story telling connects people through shared experiences. Sharing helps
+                    'normalize' something that may seem isolating, lonely, or unique to you. Others are likely
+                    experiencing similar things and may not even know it. If you want to share your story in a positive
+                    way about living with (or around), family conflict, estrangement, grief, significant illness or
+                    positive change - please do. Help someone else realize they are not alone. Share your story here.
+                    <br><br> Your email address will not be published. Your email is safe, and you can unsubscribe at
+                    any time you want. Some stories may be truncated due to space constraints. Required fields are
+                    marked.
                 </h3>
                 <form action="action_page.php">
                     <label for="subject">Comment <span class="required">*</span></label>
@@ -62,6 +87,6 @@
         </div>
     </div>
 </body>
-<link rel="stylesheet" href="./lifeclock.css">
+<script src="./index.js"></script>
 
 </html>
