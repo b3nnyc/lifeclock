@@ -4,7 +4,7 @@ document.addEventListener('click', function (event) {
     var btn = target.classList.contains('services-button');
 
     if (!menu.contains(target) && !btn) {
-        menu.style.display = 'none !important';
+        menu.style.display = 'none';
     }
 });
 
