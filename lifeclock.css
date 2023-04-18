@@ -10,6 +10,7 @@
 .header {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 6px;
     position: sticky;
+    z-index: 1;
 }
 
 .header-container {
@@ -37,7 +38,8 @@
     height: 100%;
 }
 
-.button, .services-button {
+.button,
+.services-button {
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -60,7 +62,7 @@
     position: fixed;
     top: 0;
     width: 100%
-  }
+}
 
 /* .hero-img {
     position: relative;
@@ -87,6 +89,7 @@
 .body {
     max-width: 1400px;
     margin: auto;
+    position: relative;
 }
 
 .body-content {
@@ -220,7 +223,7 @@ li {
     max-width: 14rem;
 }
 
-li>a{
+li>a {
     text-decoration: none;
     color: black;
 }
@@ -236,4 +239,79 @@ ul {
 form {
     width: 80%;
     margin: auto;
+}
+
+.page-title {
+    margin-top: 5rem;
+}
+
+.page-title__text {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+li:hover {
+    background-color: transparent;
+}
+
+.table {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.table__header {
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.table-left__container,
+.table-right__container {
+    font-size: 1.2rem;
+}
+
+.table-left,
+.table-right {
+    width: 40%;
+}
+
+.table-left__item::before {
+    content: '✓';
+    padding-right: .5rem;
+}
+
+.table-left__item,
+.table-right__item {
+    max-width: fit-content;
+}
+
+.footer {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.footer-body, .table-header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.footer>a {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footer-tagline {
+    width: max-content;
+    margin: auto;
+}
+
+.footer-tagline:hover {
+    border-bottom: 2px solid red;
 }
