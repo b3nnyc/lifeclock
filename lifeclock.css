@@ -284,7 +284,8 @@ li:hover {
     width: 35%;
 }
 
-.table-left__item::before {
+.table-left__item::before,
+.table-right__item::before {
     content: '✓';
     padding-right: .5rem;
 }
