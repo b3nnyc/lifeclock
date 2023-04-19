@@ -34,6 +34,11 @@
     margin-right: -5rem;
 }
 
+.header-right > a {
+    text-decoration: none;
+    color: black;
+}
+
 .header-logo {
     height: 100%;
 }
@@ -257,8 +262,9 @@ li:hover {
 
 .table {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 5rem;
+    border-radius: 15px;
 }
 
 .table__header {
@@ -275,7 +281,7 @@ li:hover {
 
 .table-left,
 .table-right {
-    width: 40%;
+    width: 35%;
 }
 
 .table-left__item::before {
@@ -290,6 +296,7 @@ li:hover {
 
 .footer {
     margin-top: 5rem;
+    margin-bottom: 7rem;
     text-align: center;
 }
 

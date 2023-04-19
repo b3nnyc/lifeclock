@@ -1,0 +1,4 @@
+.table-left__item::before {
+    content: '' !important;
+    padding-right: .5rem;
+}
