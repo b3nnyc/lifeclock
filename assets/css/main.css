@@ -2870,6 +2870,12 @@ input[type="button"]:disabled,
 	color: inherit;
 }
 
+@media screen and (min-width: 1981px) {
+	.body-image {
+		height: 40rem;
+	}
+}
+
 @media screen and (max-width: 1680px) {
 	body,
 	input,
@@ -3011,13 +3017,13 @@ input[type="button"]:disabled,
 		top: 0;
 		width: 100%;
 		z-index: 10001;
-		background: #222;
-		color: #fff;
+		background: white;
+		color: black;
 		min-width: 320px;
 	}
 
 	#titleBar .title {
-		color: #fff;
+		color: black;
 		display: block;
 		font-weight: 700;
 		height: 44px;
@@ -3025,6 +3031,7 @@ input[type="button"]:disabled,
 		padding: 0 1em;
 		width: 100%;
 		text-align: left;
+		font-size: 1.5rem;
 	}
 
 	#titleBar .title a {
