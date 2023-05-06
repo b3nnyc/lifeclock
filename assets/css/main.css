@@ -3308,3 +3308,9 @@ input[type="button"]:disabled,
 .grief-images>img {
     width: 32%;
 }
+
+.julie {
+	width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
