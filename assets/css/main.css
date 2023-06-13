@@ -3309,12 +3309,12 @@ input[type="button"]:disabled,
 
 .grief-images {
 	display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 	padding-bottom: 3rem;
 }
 
 .grief-images>img {
-    width: 32%;
+    width: 25%;
 }
 
 .julie {
