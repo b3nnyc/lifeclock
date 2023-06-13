@@ -2774,6 +2774,10 @@ input[type="button"]:disabled,
 }
 
 #main>section>.container {
+	padding: 4em 0 4em 0;
+}
+
+#main>section>.container:first-of-type {
 	padding: 0em 0 4em 0;
 }
 
@@ -2900,8 +2904,12 @@ input[type="button"]:disabled,
 		padding-right: 21em;
 	}
 
-	#main>section>.container {
+	#main>section>.container:first-of-type {
 		padding: 0em 0 2em 0;
+	}
+
+	#main>section>.container {
+		padding: 3em 0 2em 0;
 	}
 
 }
