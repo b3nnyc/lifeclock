@@ -3262,6 +3262,30 @@ input[type="button"]:disabled,
 		transform: translateX(-17em);
 	}
 
+	.table-wrapper {
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	table {
+		width: 100%;
+	}
+
+	.testimonials-container {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.testimonial {
+		width: 100%;
+		margin: .75rem auto;
+	}
+
+	.container-test {
+		margin-bottom: 3rem;
+	}
 }
 
 @media screen and (max-width: 480px) {
