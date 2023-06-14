@@ -2776,7 +2776,7 @@ input[type="button"]:disabled,
 }
 
 .about-container {
-	padding: 4em 0 4em 0;
+	padding: 0em 0 4em 0 !important;
 }
 
 #one>.container {
@@ -3320,4 +3320,29 @@ input[type="button"]:disabled,
 	width: 75%;
     display: flex;
     justify-content: space-between;
+}
+
+.testimonials-container {
+	width: 120%;
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 15px;
+    width: 48%;
+    height: max-content;
+    background: #d3d3d31f;
+}
+
+.testimonial-three {
+	margin-top: -5rem;
+}
+
+.testimonials-name {
+	font-style: italic;
+	color: red;
 }
