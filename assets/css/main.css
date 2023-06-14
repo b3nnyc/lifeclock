@@ -2369,11 +2369,13 @@ dl {
 .table-wrapper {
 	-webkit-overflow-scrolling: touch;
 	overflow-x: auto;
+	display: flex;
+	justify-content: space-between;
 }
 
 table {
 	margin: 0 0 2.25em 0;
-	width: 100%;
+	width: 45%;
 }
 
 table tbody tr {
